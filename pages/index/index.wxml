@@ -1,0 +1,14 @@
+<view class="item">
+  <view class="item_len">微信小程序扫一扫（仅限于前端）功能</view>
+  <navigator class="nav" url="../index/mydraft/mydraft" hover-class="navigator-hover">
+    <view>
+     <view class="nav_name">点击扫一扫</view>
+      <image src="../../images/my_sao.png" style="width:30px;height:30px;"></image>
+    </view>
+   
+  </navigator>
+<view>===============</view>
+  <view>点击直接扫一扫</view>
+ <view><image src="../../images/my_sao.png" style="width:30px;height:30px;" bindtap="scanQRCode"></image>
+</view>
+</view>
